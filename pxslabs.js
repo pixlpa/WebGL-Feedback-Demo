@@ -1,7 +1,8 @@
 /*  
-This implementation was inspired by the "jit.gl.slab" object in Jitter (Cycling '74). I've never
-looked at the code for that object, but the idea is basically the same - bundling an FBO with 
-a fragment shader program and a billboard mesh. Since I do a lot of my shader prototyping in Max
+This implementation was created to mimic the "jit.gl.slab" object in Jitter (Cycling '74). I've never
+looked at the code for that object, but the idea is similar - bundling an FBO with 
+a fragment shader program and a billboard mesh. A similar technique is used in Open Frameworks.
+Since I do a lot of my shader prototyping in Max
 it made sense to me to have a way to migrate the complex shader chains into webpages.
 */
 
